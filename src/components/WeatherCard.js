@@ -20,9 +20,9 @@ const WeatherCard = ({ city = 'London' }) => {
         // Fallback to mock data for demo
         setWeatherData({
           name: city,
-          main: { temp: 22, feels_like: 24 },
-          weather: [{ main: 'Clear', description: 'clear sky', icon: '01d' }],
-          wind: { speed: 3.5 }
+          main: { temp: 25, feels_like: 27 },
+          weather: [{ main: 'Partly Cloudy', description: 'partly cloudy', icon: '02d' }],
+          wind: { speed: 1.2 }
         });
       } finally {
         setLoading(false);
